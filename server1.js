@@ -33,7 +33,7 @@ var darthmaul = {
 // ===========================================================
 app.get("/", (req, res) => {
   console.log("Yep! You hit the ROOT route.");
-  // res.send("Welcome to the Star Wars Page!");
+  res.send("Welcome to the Star Wars Page!");
 });
 
 app.get("/yoda", function (req, res) {
